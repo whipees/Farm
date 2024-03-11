@@ -13,6 +13,14 @@ public class Farm {
         this.kyticky = new ArrayList<>();
     }
 
+    public String vypis(){
+        return kyticky + "vas list";
+    }
+
+    public void program(){
+
+    }
+
     public void zasadit(){
         Scanner sc = new Scanner(System.in);
         if (kyticky.size() < 4){
